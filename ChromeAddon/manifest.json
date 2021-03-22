@@ -1,0 +1,26 @@
+{
+    "name": "EmoteHub",
+    "description": "Twitch emote addon (they're all free)",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "entry.js"
+    },
+    "host_permissions": ["*://*/*"],
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "res/html/popup.html",
+        "default_icon": {
+            "16": "/res/images/Magpie16.png",
+            "32": "/res/images/Magpie32.png",
+            "48": "/res/images/Magpie48.png",
+            "128": "/res/images/Magpie128.png"
+        }
+    },
+    "icons": {
+        "16": "/res/images/Magpie16.png",
+        "32": "/res/images/Magpie32.png",
+        "48": "/res/images/Magpie48.png",
+        "128": "/res/images/Magpie128.png"
+    }
+}
